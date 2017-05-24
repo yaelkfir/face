@@ -1,0 +1,100 @@
+//colors
+$gradientPink: #ff0080;
+
+html {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+ul,li{
+list-style: none;
+}
+
+//controls
+.colorPicker{
+  width: 50px;
+  height: 50px;
+}
+
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: greenyellow;
+}
+.pink{
+  background-color: deeppink;
+}
+.purple{
+  background-color: rebeccapurple;
+}
+
+.big{
+  width:60px;
+  height:60px;
+}
+
+
+.face{
+  width: 500px;
+  height: 500px;
+  background-color: navajowhite;
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyes-container{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.eye{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .15s ease-in;
+}
+
+.oval{
+  width: 120px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.round{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.long{
+  width: 80px;
+  height: 120px;
+  border-radius: 50px;
+}
+
+.pupil{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all .15s ease-in;
+
+}
+
+.big{
+  width:60px;
+  height:60px;
+}
